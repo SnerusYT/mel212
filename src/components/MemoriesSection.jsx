@@ -32,15 +32,15 @@ const ContentLayout = styled.div`
 `;
 
 const MapContainer = styled.div`
-  position: sticky;
-  top: 2rem;
   height: 400px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 
   @media (min-width: 1024px) {
-    height: 80vh; // Taller on desktop
+    position: sticky;
+    top: 2rem;
+    height: 80vh; /* La carte est plus haute sur PC */
   }
 `;
 
