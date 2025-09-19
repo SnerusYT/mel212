@@ -88,7 +88,7 @@ export const memories = [
       { type: 'image', content: mondercange4 },
       { type: 'image', content: mondercange5 },
       { type: 'image', content: mondercange6 },
-      { type: 'text', content: "Getting lost in the Alfama district was the best part of our adventure." },
+      { type: 'text', content: "Perdidos no parque." },
     ]
   },
   // Add more memories here...
